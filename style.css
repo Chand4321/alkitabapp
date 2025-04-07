@@ -7,7 +7,9 @@ body {
     background-color: #ffffff;
     margin: 0;
     padding: 0;
+
     overflow-x: hidden;
+    width: 100vw;
 }
 
 .navbar {
@@ -114,8 +116,8 @@ body {
     height: 100vh;
     box-shadow: 0 0 10px #85888C;
     padding: 50px;
-    padding-top: 100px;
     background-color: #F5F6FA;
+    background-color: pink;
     -webkit-font-smoothing: antialiased;
     transform-origin: 0% 0%;
     transform: translate(20%, 0);
@@ -238,6 +240,7 @@ body {
     align-items: center;
     justify-content: center;
     padding-bottom: 30px;
+
 }
 
 .search-input {
